@@ -14,6 +14,11 @@
 		F3C194791BA6B2310022E83F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C194781BA6B2310022E83F /* Images.xcassets */; };
 		F3C1947C1BA6B2310022E83F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3C1947A1BA6B2310022E83F /* LaunchScreen.xib */; };
 		F3C194881BA6B2310022E83F /* MoxieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C194871BA6B2310022E83F /* MoxieTests.m */; };
+		F3C1949C1BA6C0220022E83F /* CHANGELOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3C194941BA6C0220022E83F /* CHANGELOG.txt */; };
+		F3C1949D1BA6C0220022E83F /* MoxtraConversationResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3C194971BA6C0220022E83F /* MoxtraConversationResources.bundle */; };
+		F3C1949E1BA6C0220022E83F /* MoxtraConversationSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194981BA6C0220022E83F /* MoxtraConversationSDK */; };
+		F3C1949F1BA6C0220022E83F /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = F3C1949A1BA6C0220022E83F /* VERSION */; };
+		F3C194A01BA6C0220022E83F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3C1949B1BA6C0220022E83F /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,13 @@
 		F3C194811BA6B2310022E83F /* MoxieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoxieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C194861BA6B2310022E83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3C194871BA6B2310022E83F /* MoxieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoxieTests.m; sourceTree = "<group>"; };
+		F3C194941BA6C0220022E83F /* CHANGELOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.txt; sourceTree = "<group>"; };
+		F3C194961BA6C0220022E83F /* Moxtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moxtra.h; sourceTree = "<group>"; };
+		F3C194971BA6C0220022E83F /* MoxtraConversationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MoxtraConversationResources.bundle; sourceTree = "<group>"; };
+		F3C194981BA6C0220022E83F /* MoxtraConversationSDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = MoxtraConversationSDK; sourceTree = "<group>"; };
+		F3C194991BA6C0220022E83F /* MXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClient.h; sourceTree = "<group>"; };
+		F3C1949A1BA6C0220022E83F /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		F3C1949B1BA6C0220022E83F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C1949E1BA6C0220022E83F /* MoxtraConversationSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 		F3C1945F1BA6B2310022E83F = {
 			isa = PBXGroup;
 			children = (
+				F3C194931BA6C0220022E83F /* Moxtra_Chat_Meet_iOS_V.129.150702 */,
 				F3C1946A1BA6B2310022E83F /* Moxie */,
 				F3C194841BA6B2310022E83F /* MoxieTests */,
 				F3C194691BA6B2310022E83F /* Products */,
@@ -117,6 +131,29 @@
 				F3C194861BA6B2310022E83F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3C194931BA6C0220022E83F /* Moxtra_Chat_Meet_iOS_V.129.150702 */ = {
+			isa = PBXGroup;
+			children = (
+				F3C194941BA6C0220022E83F /* CHANGELOG.txt */,
+				F3C194951BA6C0220022E83F /* MoxtraConversationSDK.sdk */,
+				F3C1949B1BA6C0220022E83F /* README.txt */,
+			);
+			name = Moxtra_Chat_Meet_iOS_V.129.150702;
+			path = ../../../../../../Users/kenyu/Downloads/Moxtra_Chat_Meet_iOS_V.129.150702;
+			sourceTree = "<group>";
+		};
+		F3C194951BA6C0220022E83F /* MoxtraConversationSDK.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F3C194961BA6C0220022E83F /* Moxtra.h */,
+				F3C194971BA6C0220022E83F /* MoxtraConversationResources.bundle */,
+				F3C194981BA6C0220022E83F /* MoxtraConversationSDK */,
+				F3C194991BA6C0220022E83F /* MXClient.h */,
+				F3C1949A1BA6C0220022E83F /* VERSION */,
+			);
+			path = MoxtraConversationSDK.sdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +239,10 @@
 				F3C194771BA6B2310022E83F /* Main.storyboard in Resources */,
 				F3C1947C1BA6B2310022E83F /* LaunchScreen.xib in Resources */,
 				F3C194791BA6B2310022E83F /* Images.xcassets in Resources */,
+				F3C1949F1BA6C0220022E83F /* VERSION in Resources */,
+				F3C1949D1BA6C0220022E83F /* MoxtraConversationResources.bundle in Resources */,
+				F3C194A01BA6C0220022E83F /* README.txt in Resources */,
+				F3C1949C1BA6C0220022E83F /* CHANGELOG.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +459,7 @@
 				F3C1948D1BA6B2310022E83F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3C1948E1BA6B2310022E83F /* Build configuration list for PBXNativeTarget "MoxieTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +468,7 @@
 				F3C194901BA6B2310022E83F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
