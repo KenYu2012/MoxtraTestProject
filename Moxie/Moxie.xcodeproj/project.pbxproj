@@ -19,6 +19,39 @@
 		F3C1949E1BA6C0220022E83F /* MoxtraConversationSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194981BA6C0220022E83F /* MoxtraConversationSDK */; };
 		F3C1949F1BA6C0220022E83F /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = F3C1949A1BA6C0220022E83F /* VERSION */; };
 		F3C194A01BA6C0220022E83F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3C1949B1BA6C0220022E83F /* README.txt */; };
+		F3C194AE1BA80A850022E83F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194AA1BA80A850022E83F /* libc++.dylib */; };
+		F3C194AF1BA80A850022E83F /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194AB1BA80A850022E83F /* libstdc++.6.dylib */; };
+		F3C194B01BA80A850022E83F /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194AC1BA80A850022E83F /* libxml2.2.dylib */; };
+		F3C194B11BA80A850022E83F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194AD1BA80A850022E83F /* libz.dylib */; };
+		F3C194CB1BA80AA10022E83F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194B21BA80AA10022E83F /* Accelerate.framework */; };
+		F3C194CC1BA80AA10022E83F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194B31BA80AA10022E83F /* AddressBook.framework */; };
+		F3C194CD1BA80AA10022E83F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194B41BA80AA10022E83F /* AddressBookUI.framework */; };
+		F3C194CE1BA80AA10022E83F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194B51BA80AA10022E83F /* AssetsLibrary.framework */; };
+		F3C194CF1BA80AA10022E83F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194B61BA80AA10022E83F /* AudioToolbox.framework */; };
+		F3C194D01BA80AA10022E83F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194B71BA80AA10022E83F /* AVFoundation.framework */; };
+		F3C194D11BA80AA10022E83F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194B81BA80AA10022E83F /* CFNetwork.framework */; };
+		F3C194D21BA80AA10022E83F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194B91BA80AA10022E83F /* CoreBluetooth.framework */; };
+		F3C194D31BA80AA10022E83F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194BA1BA80AA10022E83F /* CoreImage.framework */; };
+		F3C194D41BA80AA10022E83F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194BB1BA80AA10022E83F /* CoreLocation.framework */; };
+		F3C194D51BA80AA10022E83F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194BC1BA80AA10022E83F /* CoreMedia.framework */; };
+		F3C194D61BA80AA10022E83F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194BD1BA80AA10022E83F /* CoreTelephony.framework */; };
+		F3C194D71BA80AA10022E83F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194BE1BA80AA10022E83F /* CoreText.framework */; };
+		F3C194D81BA80AA10022E83F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194BF1BA80AA10022E83F /* CoreVideo.framework */; };
+		F3C194D91BA80AA10022E83F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C01BA80AA10022E83F /* EventKit.framework */; };
+		F3C194DA1BA80AA10022E83F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C11BA80AA10022E83F /* ImageIO.framework */; };
+		F3C194DB1BA80AA10022E83F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C21BA80AA10022E83F /* MapKit.framework */; };
+		F3C194DC1BA80AA10022E83F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C31BA80AA10022E83F /* MediaPlayer.framework */; };
+		F3C194DD1BA80AA10022E83F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C41BA80AA10022E83F /* MessageUI.framework */; };
+		F3C194DE1BA80AA10022E83F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C51BA80AA10022E83F /* MobileCoreServices.framework */; };
+		F3C194DF1BA80AA10022E83F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C61BA80AA10022E83F /* OpenGLES.framework */; };
+		F3C194E01BA80AA10022E83F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C71BA80AA10022E83F /* QuartzCore.framework */; };
+		F3C194E11BA80AA10022E83F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C81BA80AA10022E83F /* Security.framework */; };
+		F3C194E21BA80AA10022E83F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194C91BA80AA10022E83F /* StoreKit.framework */; };
+		F3C194E31BA80AA10022E83F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194CA1BA80AA10022E83F /* SystemConfiguration.framework */; };
+		F3C194E51BA80C320022E83F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194E41BA80C320022E83F /* CoreGraphics.framework */; };
+		F3C194E71BA80C790022E83F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194E61BA80C790022E83F /* CoreFoundation.framework */; };
+		F3C194E91BA80C8C0022E83F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194E81BA80C8C0022E83F /* UIKit.framework */; };
+		F3C194EB1BA80CFD0022E83F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C194EA1BA80CFD0022E83F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +85,39 @@
 		F3C194991BA6C0220022E83F /* MXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClient.h; sourceTree = "<group>"; };
 		F3C1949A1BA6C0220022E83F /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
 		F3C1949B1BA6C0220022E83F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		F3C194AA1BA80A850022E83F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libc++.dylib"; sourceTree = DEVELOPER_DIR; };
+		F3C194AB1BA80A850022E83F /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libstdc++.6.dylib"; sourceTree = DEVELOPER_DIR; };
+		F3C194AC1BA80A850022E83F /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libxml2.2.dylib; sourceTree = DEVELOPER_DIR; };
+		F3C194AD1BA80A850022E83F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		F3C194B21BA80AA10022E83F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194B31BA80AA10022E83F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194B41BA80AA10022E83F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194B51BA80AA10022E83F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194B61BA80AA10022E83F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194B71BA80AA10022E83F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194B81BA80AA10022E83F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194B91BA80AA10022E83F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194BA1BA80AA10022E83F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194BB1BA80AA10022E83F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194BC1BA80AA10022E83F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194BD1BA80AA10022E83F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194BE1BA80AA10022E83F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194BF1BA80AA10022E83F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C01BA80AA10022E83F /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C11BA80AA10022E83F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C21BA80AA10022E83F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C31BA80AA10022E83F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C41BA80AA10022E83F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C51BA80AA10022E83F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C61BA80AA10022E83F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C71BA80AA10022E83F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C81BA80AA10022E83F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194C91BA80AA10022E83F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194CA1BA80AA10022E83F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194E41BA80C320022E83F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194E61BA80C790022E83F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194E81BA80C8C0022E83F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F3C194EA1BA80CFD0022E83F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +125,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C194AF1BA80A850022E83F /* libstdc++.6.dylib in Frameworks */,
+				F3C194E91BA80C8C0022E83F /* UIKit.framework in Frameworks */,
+				F3C194CC1BA80AA10022E83F /* AddressBook.framework in Frameworks */,
+				F3C194DD1BA80AA10022E83F /* MessageUI.framework in Frameworks */,
+				F3C194DF1BA80AA10022E83F /* OpenGLES.framework in Frameworks */,
+				F3C194DE1BA80AA10022E83F /* MobileCoreServices.framework in Frameworks */,
+				F3C194DA1BA80AA10022E83F /* ImageIO.framework in Frameworks */,
+				F3C194D01BA80AA10022E83F /* AVFoundation.framework in Frameworks */,
+				F3C194DB1BA80AA10022E83F /* MapKit.framework in Frameworks */,
+				F3C194E51BA80C320022E83F /* CoreGraphics.framework in Frameworks */,
+				F3C194E01BA80AA10022E83F /* QuartzCore.framework in Frameworks */,
+				F3C194D21BA80AA10022E83F /* CoreBluetooth.framework in Frameworks */,
+				F3C194D61BA80AA10022E83F /* CoreTelephony.framework in Frameworks */,
+				F3C194CD1BA80AA10022E83F /* AddressBookUI.framework in Frameworks */,
+				F3C194B11BA80A850022E83F /* libz.dylib in Frameworks */,
+				F3C194D41BA80AA10022E83F /* CoreLocation.framework in Frameworks */,
+				F3C194E21BA80AA10022E83F /* StoreKit.framework in Frameworks */,
+				F3C194AE1BA80A850022E83F /* libc++.dylib in Frameworks */,
+				F3C194E31BA80AA10022E83F /* SystemConfiguration.framework in Frameworks */,
+				F3C194EB1BA80CFD0022E83F /* Foundation.framework in Frameworks */,
+				F3C194D51BA80AA10022E83F /* CoreMedia.framework in Frameworks */,
+				F3C194D11BA80AA10022E83F /* CFNetwork.framework in Frameworks */,
+				F3C194E71BA80C790022E83F /* CoreFoundation.framework in Frameworks */,
+				F3C194CB1BA80AA10022E83F /* Accelerate.framework in Frameworks */,
+				F3C194E11BA80AA10022E83F /* Security.framework in Frameworks */,
+				F3C194DC1BA80AA10022E83F /* MediaPlayer.framework in Frameworks */,
+				F3C194D31BA80AA10022E83F /* CoreImage.framework in Frameworks */,
+				F3C194CE1BA80AA10022E83F /* AssetsLibrary.framework in Frameworks */,
+				F3C194D71BA80AA10022E83F /* CoreText.framework in Frameworks */,
+				F3C194D81BA80AA10022E83F /* CoreVideo.framework in Frameworks */,
+				F3C194D91BA80AA10022E83F /* EventKit.framework in Frameworks */,
+				F3C194CF1BA80AA10022E83F /* AudioToolbox.framework in Frameworks */,
 				F3C1949E1BA6C0220022E83F /* MoxtraConversationSDK in Frameworks */,
+				F3C194B01BA80A850022E83F /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +175,7 @@
 		F3C1945F1BA6B2310022E83F = {
 			isa = PBXGroup;
 			children = (
+				F3C194A81BA80A190022E83F /* Frameworks */,
 				F3C194931BA6C0220022E83F /* Moxtra_Chat_Meet_iOS_V.129.150702 */,
 				F3C1946A1BA6B2310022E83F /* Moxie */,
 				F3C194841BA6B2310022E83F /* MoxieTests */,
@@ -154,6 +254,46 @@
 				F3C1949A1BA6C0220022E83F /* VERSION */,
 			);
 			path = MoxtraConversationSDK.sdk;
+			sourceTree = "<group>";
+		};
+		F3C194A81BA80A190022E83F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C194AA1BA80A850022E83F /* libc++.dylib */,
+				F3C194AB1BA80A850022E83F /* libstdc++.6.dylib */,
+				F3C194AC1BA80A850022E83F /* libxml2.2.dylib */,
+				F3C194AD1BA80A850022E83F /* libz.dylib */,
+				F3C194B21BA80AA10022E83F /* Accelerate.framework */,
+				F3C194B31BA80AA10022E83F /* AddressBook.framework */,
+				F3C194B41BA80AA10022E83F /* AddressBookUI.framework */,
+				F3C194B51BA80AA10022E83F /* AssetsLibrary.framework */,
+				F3C194B61BA80AA10022E83F /* AudioToolbox.framework */,
+				F3C194B71BA80AA10022E83F /* AVFoundation.framework */,
+				F3C194B81BA80AA10022E83F /* CFNetwork.framework */,
+				F3C194B91BA80AA10022E83F /* CoreBluetooth.framework */,
+				F3C194E61BA80C790022E83F /* CoreFoundation.framework */,
+				F3C194E41BA80C320022E83F /* CoreGraphics.framework */,
+				F3C194BA1BA80AA10022E83F /* CoreImage.framework */,
+				F3C194BB1BA80AA10022E83F /* CoreLocation.framework */,
+				F3C194BC1BA80AA10022E83F /* CoreMedia.framework */,
+				F3C194BD1BA80AA10022E83F /* CoreTelephony.framework */,
+				F3C194BE1BA80AA10022E83F /* CoreText.framework */,
+				F3C194BF1BA80AA10022E83F /* CoreVideo.framework */,
+				F3C194C01BA80AA10022E83F /* EventKit.framework */,
+				F3C194EA1BA80CFD0022E83F /* Foundation.framework */,
+				F3C194C11BA80AA10022E83F /* ImageIO.framework */,
+				F3C194C21BA80AA10022E83F /* MapKit.framework */,
+				F3C194C31BA80AA10022E83F /* MediaPlayer.framework */,
+				F3C194C41BA80AA10022E83F /* MessageUI.framework */,
+				F3C194C51BA80AA10022E83F /* MobileCoreServices.framework */,
+				F3C194C61BA80AA10022E83F /* OpenGLES.framework */,
+				F3C194C71BA80AA10022E83F /* QuartzCore.framework */,
+				F3C194C81BA80AA10022E83F /* Security.framework */,
+				F3C194C91BA80AA10022E83F /* StoreKit.framework */,
+				F3C194CA1BA80AA10022E83F /* SystemConfiguration.framework */,
+				F3C194E81BA80C8C0022E83F /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,8 +530,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Moxie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -400,8 +543,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Moxie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
